@@ -7,8 +7,8 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Baoer‘s Blog',
-  subtitle: 'Demo Site',
+  title: 'Baoerzuikeai\'s Blog',
+  subtitle: 'aways keep learning',
   lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
     hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -56,16 +56,16 @@ export const profileConfig: ProfileConfig = {
   bio: '在这里记录我的编程之路，探索技术的无限可能...',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
+      name: 'Bilibili',
+      icon: 'fa6-brands:bilibili',       // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
+      url: 'https://space.bilibili.com/312992011',
     },
     {
       name: 'Steam',
       icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      url: 'https://steamcommunity.com/profiles/76561199096111600/',
     },
     {
       name: 'GitHub',
